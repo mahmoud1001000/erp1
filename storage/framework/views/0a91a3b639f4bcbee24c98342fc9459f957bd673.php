@@ -1,0 +1,3 @@
+<a href="<?php echo e(action('TransactionPaymentController@show', [$id]), false); ?>" class="view_payment_modal payment-status-label" data-orig-value="<?php echo e($payment_status, false); ?>" data-status-name="<?php echo e(__('lang_v1.' . $payment_status), false); ?>"><span class="label payment_status <?php echo e($payment_status, false); ?>"><?php echo e(__('installment::lang.' . $payment_status), false); ?>
+
+                        </span></a><?php /**PATH /home/u217138193/domains/mzgr0up.com/public_html/erp1/Modules/Installment/Providers/../Resources/views/sell/payment_status.blade.php ENDPATH**/ ?>

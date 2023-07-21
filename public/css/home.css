@@ -1,0 +1,70 @@
+
+body {
+    min-height: 100vh;
+     /*  color: #fff;
+    background-image: url("data:image/svg+xml,%3Csvg width='60' height='60' viewBox='0 0 60 60' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%239C92AC' fill-opacity='0.12'%3E%3Cpath d='M36 34v-4h-2v4h-4v2h4v4h2v-4h4v-2h-4zm0-30V0h-2v4h-4v2h4v4h2V6h4V4h-4zM6 34v-4H4v4H0v2h4v4h2v-4h4v-2H6zM6 4V0H4v4H0v2h4v4h2V6h4V4H6z'/%3E%3C/g%3E%3C/g%3E%3C/svg%3E");*/
+}
+.navbar-default {
+    background-color: transparent;
+    border: none;
+}
+.navbar-static-top {
+    margin-bottom: 19px;
+}
+.navbar-default .navbar-nav>li>a {
+    color: #fff;
+    font-weight: 600;
+    font-size: 15px
+}
+.navbar-default .navbar-nav>li>a:hover{
+    color: #ccc;
+}
+.navbar-default .navbar-brand {
+    color: #ccc;
+}
+.flex-center {
+          align-items: center;
+          display: flex;
+          justify-content: center;
+
+      }
+.title {
+    font-size:35px;
+}
+.tagline {
+    font-size:25px;
+    font-weight: 300;
+    text-align: center;
+}
+
+@media only screen and (max-width: 600px) {
+    .title{
+        font-size: 38px;
+    }
+    .tagline {
+        font-size:18px;
+    }
+}
+.homepage{
+    background-color: #ffffff;
+}
+.title{
+    background-color: #0a568c;
+    color: white;
+}
+.login-btn{
+    font-size: 21px;
+    padding: 13px 17px 13px 17px;
+
+    border-radius: 10px;
+    color: #FFF;
+    background-color: #484747;
+    transition: ease-in-out 0.5s;
+}
+
+.login-btn:hover{
+    color: #ffffff !important;
+    background-color: #a01121;
+    padding-right: 20px;
+}
+

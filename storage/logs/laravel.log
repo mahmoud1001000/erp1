@@ -1,0 +1,68 @@
+[2022-10-12 16:59:55] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /home/u373816316/domains/erp4anyone.com/public_html/4any/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:200)
+[stacktrace]
+#0 /home/u373816316/domains/erp4anyone.com/public_html/4any/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(125): Illuminate\\Log\\LogManager->resolve(NULL, NULL)
+#1 /home/u373816316/domains/erp4anyone.com/public_html/4any/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(112): Illuminate\\Log\\LogManager->get(NULL)
+#2 /home/u373816316/domains/erp4anyone.com/public_html/4any/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(590): Illuminate\\Log\\LogManager->driver()
+#3 /home/u373816316/domains/erp4anyone.com/public_html/4any/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(252): Illuminate\\Log\\LogManager->error('Class 'Laravel\\\\...', Array)
+#4 /home/u373816316/domains/erp4anyone.com/public_html/4any/app/Exceptions/Handler.php(47): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Error))
+#5 /home/u373816316/domains/erp4anyone.com/public_html/4any/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(366): App\\Exceptions\\Handler->report(Object(Error))
+#6 /home/u373816316/domains/erp4anyone.com/public_html/4any/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(131): Illuminate\\Foundation\\Console\\Kernel->reportException(Object(Error))
+#7 /home/u373816316/domains/erp4anyone.com/public_html/4any/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#8 {main}
+"} 
+[2022-10-12 16:59:55] laravel.ERROR: Class 'Laravel\Fortify\Features' not found {"exception":"[object] (Error(code: 0): Class 'Laravel\\Fortify\\Features' not found at /home/u373816316/domains/erp4anyone.com/public_html/4any/config/fortify.php:134)
+[stacktrace]
+#0 /home/u373816316/domains/erp4anyone.com/public_html/4any/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(72): require()
+#1 /home/u373816316/domains/erp4anyone.com/public_html/4any/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#2 /home/u373816316/domains/erp4anyone.com/public_html/4any/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#3 /home/u373816316/domains/erp4anyone.com/public_html/4any/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(310): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#4 /home/u373816316/domains/erp4anyone.com/public_html/4any/vendor/laravel/framework/src/Illuminate/Foundation/Console/Kernel.php(127): Illuminate\\Foundation\\Console\\Kernel->bootstrap()
+#5 /home/u373816316/domains/erp4anyone.com/public_html/4any/artisan(37): Illuminate\\Foundation\\Console\\Kernel->handle(Object(Symfony\\Component\\Console\\Input\\ArgvInput), Object(Symfony\\Component\\Console\\Output\\ConsoleOutput))
+#6 {main}
+"} 
+[2022-10-12 17:00:00] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /home/u373816316/domains/erp4anyone.com/public_html/4any/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:200)
+[stacktrace]
+#0 /home/u373816316/domains/erp4anyone.com/public_html/4any/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(125): Illuminate\\Log\\LogManager->resolve(NULL, NULL)
+#1 /home/u373816316/domains/erp4anyone.com/public_html/4any/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(112): Illuminate\\Log\\LogManager->get(NULL)
+#2 /home/u373816316/domains/erp4anyone.com/public_html/4any/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(590): Illuminate\\Log\\LogManager->driver()
+#3 /home/u373816316/domains/erp4anyone.com/public_html/4any/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(252): Illuminate\\Log\\LogManager->error('Class 'Laravel\\\\...', Array)
+#4 /home/u373816316/domains/erp4anyone.com/public_html/4any/app/Exceptions/Handler.php(47): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Error))
+#5 /home/u373816316/domains/erp4anyone.com/public_html/4any/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(415): App\\Exceptions\\Handler->report(Object(Error))
+#6 /home/u373816316/domains/erp4anyone.com/public_html/4any/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(113): Illuminate\\Foundation\\Http\\Kernel->reportException(Object(Error))
+#7 /home/u373816316/domains/erp4anyone.com/public_html/4any/public/index.php(53): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#8 {main}
+"} 
+[2022-10-12 17:00:00] laravel.ERROR: Class 'Laravel\Fortify\Features' not found {"exception":"[object] (Error(code: 0): Class 'Laravel\\Fortify\\Features' not found at /home/u373816316/domains/erp4anyone.com/public_html/4any/config/fortify.php:134)
+[stacktrace]
+#0 /home/u373816316/domains/erp4anyone.com/public_html/4any/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(72): require()
+#1 /home/u373816316/domains/erp4anyone.com/public_html/4any/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#2 /home/u373816316/domains/erp4anyone.com/public_html/4any/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#3 /home/u373816316/domains/erp4anyone.com/public_html/4any/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(153): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#4 /home/u373816316/domains/erp4anyone.com/public_html/4any/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(137): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#5 /home/u373816316/domains/erp4anyone.com/public_html/4any/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#6 /home/u373816316/domains/erp4anyone.com/public_html/4any/public/index.php(53): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#7 {main}
+"} 
+[2022-10-12 17:00:27] laravel.EMERGENCY: Unable to create configured logger. Using emergency logger. {"exception":"[object] (InvalidArgumentException(code: 0): Log [] is not defined. at /home/u373816316/domains/erp4anyone.com/public_html/4any/vendor/laravel/framework/src/Illuminate/Log/LogManager.php:200)
+[stacktrace]
+#0 /home/u373816316/domains/erp4anyone.com/public_html/4any/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(125): Illuminate\\Log\\LogManager->resolve(NULL, NULL)
+#1 /home/u373816316/domains/erp4anyone.com/public_html/4any/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(112): Illuminate\\Log\\LogManager->get(NULL)
+#2 /home/u373816316/domains/erp4anyone.com/public_html/4any/vendor/laravel/framework/src/Illuminate/Log/LogManager.php(590): Illuminate\\Log\\LogManager->driver()
+#3 /home/u373816316/domains/erp4anyone.com/public_html/4any/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php(252): Illuminate\\Log\\LogManager->error('Class 'Laravel\\\\...', Array)
+#4 /home/u373816316/domains/erp4anyone.com/public_html/4any/app/Exceptions/Handler.php(47): Illuminate\\Foundation\\Exceptions\\Handler->report(Object(Error))
+#5 /home/u373816316/domains/erp4anyone.com/public_html/4any/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(415): App\\Exceptions\\Handler->report(Object(Error))
+#6 /home/u373816316/domains/erp4anyone.com/public_html/4any/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(113): Illuminate\\Foundation\\Http\\Kernel->reportException(Object(Error))
+#7 /home/u373816316/domains/erp4anyone.com/public_html/4any/public/index.php(53): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#8 {main}
+"} 
+[2022-10-12 17:00:27] laravel.ERROR: Class 'Laravel\Fortify\Features' not found {"exception":"[object] (Error(code: 0): Class 'Laravel\\Fortify\\Features' not found at /home/u373816316/domains/erp4anyone.com/public_html/4any/config/fortify.php:134)
+[stacktrace]
+#0 /home/u373816316/domains/erp4anyone.com/public_html/4any/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(72): require()
+#1 /home/u373816316/domains/erp4anyone.com/public_html/4any/vendor/laravel/framework/src/Illuminate/Foundation/Bootstrap/LoadConfiguration.php(39): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->loadConfigurationFiles(Object(Illuminate\\Foundation\\Application), Object(Illuminate\\Config\\Repository))
+#2 /home/u373816316/domains/erp4anyone.com/public_html/4any/vendor/laravel/framework/src/Illuminate/Foundation/Application.php(237): Illuminate\\Foundation\\Bootstrap\\LoadConfiguration->bootstrap(Object(Illuminate\\Foundation\\Application))
+#3 /home/u373816316/domains/erp4anyone.com/public_html/4any/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(153): Illuminate\\Foundation\\Application->bootstrapWith(Array)
+#4 /home/u373816316/domains/erp4anyone.com/public_html/4any/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(137): Illuminate\\Foundation\\Http\\Kernel->bootstrap()
+#5 /home/u373816316/domains/erp4anyone.com/public_html/4any/vendor/laravel/framework/src/Illuminate/Foundation/Http/Kernel.php(111): Illuminate\\Foundation\\Http\\Kernel->sendRequestThroughRouter(Object(Illuminate\\Http\\Request))
+#6 /home/u373816316/domains/erp4anyone.com/public_html/4any/public/index.php(53): Illuminate\\Foundation\\Http\\Kernel->handle(Object(Illuminate\\Http\\Request))
+#7 {main}
+"} 

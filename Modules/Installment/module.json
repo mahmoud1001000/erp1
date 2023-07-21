@@ -1,0 +1,14 @@
+{
+    "name": "Installment",
+    "alias": "installment",
+    "description": "وحدة التقسيط - تقسيط متأخرات العملاء عند تحصيل فاتورة آجل",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\Installment\\Providers\\InstallmentServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

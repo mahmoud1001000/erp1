@@ -1,0 +1,14 @@
+{
+    "name": "Restaurant",
+    "alias": "restaurant",
+    "description": "This is Module Template for AZHA-ERP designed by Eng Moahmed Ali",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\Restaurant\\Providers\\RestaurantServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

@@ -1,0 +1,14 @@
+{
+    "name": "Partners",
+    "alias":"partners",
+    "description": "This module added by eng mohamed ali for Partners management",
+    "keywords": [],
+    "active": 1,
+    "order": 0,
+    "providers": [
+        "Modules\\Partners\\Providers\\PartnersServiceProvider"
+    ],
+    "aliases": [],
+    "files": [],
+    "requires": []
+}

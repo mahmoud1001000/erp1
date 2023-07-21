@@ -1,0 +1,2 @@
+
+{!! $receipt['html_content'] !!}
